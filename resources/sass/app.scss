@@ -1,0 +1,66 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//v-select
+@import "vue-select/src/scss/vue-select.scss";
+
+body{
+    font-family: $font-family-sans-serif !important;
+    font-size: $font-size-base !important;
+    background-color: #f9fbfd !important;
+}
+
+.h2{
+    font-size: 1.25rem !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -.02em !important;
+    font-weight: 500 !important;
+    line-height: 1.1 !important;
+}
+
+.h4, h4{
+    font-size: .9375rem !important;
+}
+
+.h1, h1 {
+    font-size: 1.9rem !important;
+}
+
+h6.text-uppercase {
+    letter-spacing: .08em !important;
+}
+
+.text-muted {
+    color: #95aac9!important;
+}
+
+.card{
+    margin-bottom: 1.5rem !important;
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%) !important;
+    border-radius: .5rem !important;
+    background-clip: border-box;
+    border: 1px solid #edf2f9;
+}
+
+.card-header>:first-child {
+    flex: 1 !important;
+}
+
+.card-header-title {
+    margin-bottom: 0 !important;
+}
+
+.card-header{
+    padding: 1rem 1.5rem !important;
+    margin-bottom: 0 !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid #edf2f9 !important;
+}
